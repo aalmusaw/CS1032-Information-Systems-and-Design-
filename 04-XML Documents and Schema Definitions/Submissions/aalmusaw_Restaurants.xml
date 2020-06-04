@@ -1,0 +1,151 @@
+<?xml version="1.0"?>													<!--Ali Al-Musawi-->
+<Restaurants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="aalmusaw_Restaurants.xsd">				<!--AALMUSAW-->
+	<RESTAURANT Preference="1">							
+		<id>ON001</id>													<!--Feb 23, 2019-->
+		<name>Ozen</name>
+		<cuisine>Japanese</cuisine>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Sushi</food_type>
+			<food_name>Crab</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Sushi</food_type>
+			<food_name>Ikura</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Sushi</food_type>
+			<food_name>Masago</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Tempura</food_type>
+			<food_name>Shrimp</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Tempura</food_type>
+			<food_name>Vegatable</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Soup</food_type>
+			<food_name>Nabeyaki Udon</food_name>
+		</MenuItem>
+		<MenuItem>
+			<restaurant_id>ON001</restaurant_id>
+			<food_type>Soup</food_type>
+			<food_name>Yosenabe</food_name>
+		</MenuItem>
+		<deliverycost>$14.00</deliverycost>
+		<orderhistory>23</orderhistory>
+		<EmployeeOrders>
+			<restaurant_id>ON001</restaurant_id>
+			<employee_id>27</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>ON001</restaurant_id>
+			<employee_id>37</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>ON001</restaurant_id>
+			<employee_id>42</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>ON001</restaurant_id>
+			<employee_id>51</employee_id>
+		</EmployeeOrders>
+		<resphone_number>5195553200</resphone_number>
+		<current>true</current>
+	</RESTAURANT>
+	<RESTAURANT Preference="2">
+		<id>AN001</id>
+		<name>Abruzzi's Italian Kitchen</name>
+		<cuisine>Italian</cuisine>
+		<MenuItem>
+				<restaurant_id>AN001</restaurant_id>
+				<food_type>Pizza</food_type>
+				<food_name>Deep Dish</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>AN001</restaurant_id>
+				<food_type>Pizza</food_type>
+				<food_name>Thin Crust</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>AN001</restaurant_id>
+				<food_type>Pasta</food_type>
+				<food_name>Rigatoni</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>AN001</restaurant_id>
+				<food_type>Pasta</food_type>
+				<food_name>Conchilgie</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>AN001</restaurant_id>
+				<food_type>Pasta</food_type>
+				<food_name>Ziti</food_name>
+		</MenuItem>
+		<deliverycost>$10.45</deliverycost>
+		<orderhistory>14</orderhistory>
+		<EmployeeOrders>
+			<restaurant_id>AN001</restaurant_id>
+			<employee_id>27</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>AN001</restaurant_id>
+			<employee_id>37</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>AN001</restaurant_id>
+			<employee_id>51</employee_id>
+		</EmployeeOrders>
+		<resphone_number>5195554312</resphone_number>
+		<current>true</current>
+	</RESTAURANT>
+	<RESTAURANT Preference="3">
+		<id>SR001</id>
+		<name>Sherlock's Hearth &amp; Ember</name>
+		<cuisine>English</cuisine>
+		<MenuItem>
+				<restaurant_id>SR001</restaurant_id>
+				<food_type>Dinner</food_type>
+				<food_name>Bangers and Mash</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>SR001</restaurant_id>
+				<food_type>Dinner</food_type>
+				<food_name>Liver and Onions</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>SR001</restaurant_id>
+				<food_type>Starters</food_type>
+				<food_name>Grilled Halloumi &lt;White Cheese&gt;</food_name>
+		</MenuItem>
+		<MenuItem>
+				<restaurant_id>SR001</restaurant_id>
+				<food_type>Starters</food_type>
+				<food_name>Panko Coated Squid Rings</food_name>
+		</MenuItem>
+		<deliverycost>$21.37</deliverycost>
+		<orderhistory>14</orderhistory>
+		<EmployeeOrders>
+			<restaurant_id>SR001</restaurant_id>
+			<employee_id>37</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>SR001</restaurant_id>
+			<employee_id>42</employee_id>
+		</EmployeeOrders>
+		<EmployeeOrders>
+			<restaurant_id>SR001</restaurant_id>
+			<employee_id>51</employee_id>
+		</EmployeeOrders>
+		<resphone_number>5195558888</resphone_number>
+		<current>false</current>
+	</RESTAURANT>
+</Restaurants>

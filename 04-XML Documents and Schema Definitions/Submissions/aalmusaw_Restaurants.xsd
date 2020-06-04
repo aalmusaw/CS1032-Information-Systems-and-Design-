@@ -1,0 +1,40 @@
+<?xml version="1.0"?>														<!--Ali Al-Musawi-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">					<!--AALMUSAW-->
+	<xsd:element name="Restaurants">										<!--251008221-->
+		<xsd:complexType>													<!--Feb 23, 2019-->
+		<xsd:sequence>
+			<xsd:element name="RESTAURANT" maxOccurs="unbounded">
+				<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="id" type="xsd:string"/>
+					<xsd:element name="name" type="xsd:string"/>
+					<xsd:element name="cuisine" type="xsd:string"/>
+					<xsd:element name="MenuItem" maxOccurs="unbounded">
+						<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="restaurant_id" type="xsd:string"/>
+							<xsd:element name="food_type" type="xsd:string"/>
+							<xsd:element name="food_name" type="xsd:string"/>
+						</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="deliverycost" minOccurs="0" type="xsd:string"/>
+					<xsd:element name="orderhistory" type="xsd:integer"/>
+					<xsd:element name="EmployeeOrders" maxOccurs="10">
+						<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="restaurant_id" type="xsd:string"/>
+							<xsd:element name="employee_id" type="xsd:integer"/>
+						</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resphone_number" type="xsd:integer"/>
+					<xsd:element name="current" type="xsd:boolean"/>
+				</xsd:sequence>
+				<xsd:attribute name="Preference" type="xsd:integer"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
